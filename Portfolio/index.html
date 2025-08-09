@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zubair Pathan — Portfolio</title>
+  <meta name="description" content="Zubair Pathan — B.E. IT | Full-stack developer | Portfolio" />
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- AOS (scroll animations) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="logo" aria-hidden="false">
+      <h2 class="brand"><span class="brand-first">Zubair</span><span class="brand-highlight">Pathan</span></h2>
+    </div>
+
+    <nav class="main-nav" role="navigation" aria-label="Main">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero" role="region" aria-label="Introduction">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1 class="typing-line" aria-live="polite"><span id="typed-name"></span></h1>
+        <h2 class="hero-sub">Final-year B.E. (IT) · Aspiring Full-Stack Developer</h2>
+        <p class="hero-desc">
+          An enthusiastic and motivated final-year B.E. IT student eager to build impactful software solutions.
+          Currently learning Java Full Stack and experienced with Python, data analysis and frontend development.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="Resume_Template_TNSIF.pdf" download>Download Resume</a>
+          <button id="openTabs" class="btn secondary">Quick: Education · Skills · Internships</button>
+        </div>
+
+        <div class="contact-mini">
+          <span>📧 <a href="mailto:pathanzubairaziz@gmail.com">pathanzubairaziz@gmail.com</a></span>
+          <span>•</span>
+          <span>📞 <a href="tel:+917249247724">+91 7249247724</a></span>
+          <span>•</span>
+          <span>💻 <a href="https://github.com/pathanzubair" target="_blank" rel="noopener">github.com/pathanzubair</a></span>
+          <span>•</span>
+          <span><a href="https://www.linkedin.com/in/zubairazizpathan2026" target="_blank" rel="noopener">linkedin.com/in/zubairazizpathan2026</a></span>
+        </div>
+      </div>
+
+      <div class="hero-image" data-aos="zoom-in">
+        <div class="img-frame">
+          <img src="profile.jpeg" alt="Zubair Pathan" class="profile-img">
+          <div class="img-ring"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about" data-aos="fade-up">
+    <div class="about-text">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a driven final-year B.E. IT student from Jayawantrao Sawant College of Engineering (Pune), focused on
+        full-stack development. I enjoy building intuitive frontends, robust backends, and designing databases that scale.
+        Currently undergoing Java Full Stack training (TNS Training) and have prior training in Python and DSA.
+      </p>
+
+      <h3 class="small-title">Quick facts</h3>
+      <ul class="quick-list">
+        <li>📍 Pune, India</li>
+        <li>🎓 B.E. (IT) – Jayawantrao Sawant College Of Engineering</li>
+        <li>📫 <a href="mailto:pathanzubairaziz@gmail.com">pathanzubairaziz@gmail.com</a></li>
+      </ul>
+    </div>
+
+    <div class="about-image" data-aos="fade-left">
+      <img src="profile.jpeg" alt="Zubair portrait" class="about-portrait">
+    </div>
+  </section>
+
+  <!-- TABS (quick switch) -->
+  <section class="tabs-panel" aria-label="Quick tabs">
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="education-tab" aria-controls="education-tab">Education</button>
+      <button class="tab-btn" data-tab="skills-tab" aria-controls="skills-tab">Skills</button>
+      <button class="tab-btn" data-tab="intern-tab" aria-controls="intern-tab">Internships</button>
+    </div>
+
+    <div class="tab-contents">
+      <div id="education-tab" class="tab-content active" role="tabpanel">
+        <div class="edu-quick">
+          <h4>B.E. (Information Technology)</h4>
+          <p>Jayawantrao Sawant College Of Engineering, Pune — <span class="badge grade">SGPA: 8.48</span></p>
+        </div>
+      </div>
+
+      <div id="skills-tab" class="tab-content" role="tabpanel">
+        <div class="skills-quick">
+          <p><strong>Frontend:</strong> HTML · CSS · JavaScript</p>
+          <p><strong>Backend:</strong> Java · Node.js · Python</p>
+          <p><strong>Databases:</strong> MongoDB · MySQL</p>
+        </div>
+      </div>
+
+      <div id="intern-tab" class="tab-content" role="tabpanel">
+        <div class="intern-quick">
+          <p><strong>Oasis Infobyte</strong> — Data Analyst Intern (Aug 2024 – Oct 2024)</p>
+          <p><strong>Bluestock Fintech</strong> — SDE Intern (Frontend) (May 2025 – Jun 2025)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL Education -->
+  <section id="education" class="education-section" data-aos="fade-up">
+    <h2 class="section-title">Education</h2>
+
+    <div class="edu-cards">
+      <article class="edu-card" data-aos="fade-up">
+        <h3>B.E. in Information Technology</h3>
+        <p class="muted">Jayawantrao Sawant College Of Engineering, Pune — Sept 2022 – Present</p>
+        <p><span class="badge grade animated">SGPA: 8.48</span></p>
+      </article>
+
+      <article class="edu-card" data-aos="fade-up">
+        <h3>HSC (Science)</h3>
+        <p class="muted">Cygnet Public School, Pune — March 2022</p>
+        <p><span class="badge grade">77.17%</span></p>
+      </article>
+
+      <article class="edu-card" data-aos="fade-up">
+        <h3>SSC</h3>
+        <p class="muted">Cygnet Public School, Pune — March 2020</p>
+        <p><span class="badge grade">93.40%</span></p>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills-section" data-aos="fade-up">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-column">
+        <h3>Frontend</h3>
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar"><div class="skill-level" data-level="90%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">CSS</div>
+          <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-column">
+        <h3>Backend</h3>
+        <div class="skill">
+          <div class="skill-name">Java</div>
+          <div class="skill-bar"><div class="skill-level" data-level="80%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">Python</div>
+          <div class="skill-bar"><div class="skill-level" data-level="80%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">C++</div>
+          <div class="skill-bar"><div class="skill-level" data-level="85%"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-column">
+        <h3>Databases</h3>
+        <div class="skill">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">MongoDB</div>
+          <div class="skill-bar"><div class="skill-level" data-level="70%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">SQL</div>
+          <div class="skill-bar"><div class="skill-level" data-level="75%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNSHIPS -->
+  <section id="internships" class="internships-section" data-aos="fade-up">
+    <h2 class="section-title">Internships</h2>
+
+    <div class="intern-cards">
+      <article class="intern-card" data-aos="fade-up">
+        <h3>Oasis Infobyte — Data Analyst Intern</h3>
+        <p class="muted">Aug 2024 – Oct 2024</p>
+        <ul>
+          <li>Cleaned and preprocessed datasets using Pandas to handle missing values and inconsistencies.</li>
+          <li>Performed exploratory data analysis to support reporting.</li>
+        </ul>
+      </article>
+
+      <article class="intern-card" data-aos="fade-up">
+        <h3>Bluestock Fintech — SDE Intern (Frontend)</h3>
+        <p class="muted">May 2025 – Jun 2025</p>
+        <ul>
+          <li>Developed the frontend for a stock market web application.</li>
+          <li>Worked on responsive UI components and integration with backend APIs.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROFESSIONAL TRAININGS -->
+  <section id="trainings" class="trainings-section" data-aos="fade-up">
+    <h2 class="section-title">Professional Trainings</h2>
+    <div class="training-cards">
+      <article class="training-card">
+        <h3>TNS Training — Java Full Stack</h3>
+        <p class="muted">Pune — July 2025 – Present</p>
+        <p>Ongoing Java Full Stack training including backend, frontend and soft skills sessions.</p>
+      </article>
+
+      <article class="training-card">
+        <h3>Talentio Training — Python & DSA</h3>
+        <p class="muted">Pune — March 2024 – May 2024</p>
+        <p>Completed training in Python programming and learned data structures & algorithms.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects-section" data-aos="fade-up">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-cards">
+      <article class="project-card">
+        <h3>Airline Management System</h3>
+        <p><strong>Backend:</strong> Designed MongoDB database with collections for customers, admins, tickets, and destinations — implemented CRUD operations.</p>
+        <p><strong>Frontend:</strong> Responsive HTML/CSS pages for flight search, ticket booking and admin management. Implemented login and booking flows.</p>
+      </article>
+
+      <article class="project-card">
+        <h3>Movie Recommender System</h3>
+        <p>Responsive movie recommender built with Python Streamlit. Used Kaggle dataset, implemented data cleaning, vectorization and model pipelines using Pandas, NumPy and Scikit-learn.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- EXTRA CURRICULARS & CERTIFICATES -->
+  <section id="extras" class="extras-section" data-aos="fade-up">
+    <h2 class="section-title">Extra Curriculars & Certificates</h2>
+
+    <div class="extras-grid">
+      <div class="extra-card">
+        <h4>Placement Drive Coordinator</h4>
+        <p>Collaborated with classmates to organize and manage campus placement activities.</p>
+      </div>
+
+      <div class="extra-card">
+        <h4>Certificates</h4>
+        <ul>
+          <li>NPTEL — Cloud Computing (70%)</li>
+          <li>HackerRank — SQL Certificate</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section" data-aos="fade-up">
+    <h2 class="section-title">Contact</h2>
+    <p>If you'd like to collaborate or have questions, reach out — I typically respond within a few days.</p>
+
+    <div class="contact-details">
+      <p>📧 <a href="mailto:pathanzubairaziz@gmail.com">pathanzubairaziz@gmail.com</a></p>
+      <p>📞 <a href="tel:+917249247724">+91 7249247724</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/zubairazizpathan2026" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/pathanzubair" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Zubair Pathan. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS + main script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script> AOS.init({ duration: 900, once: false }); </script>
+</body>
+</html>
